@@ -11,7 +11,7 @@ cd ./so-deploy
 cd ./tp-2026-1c-Low-Cortisol
 ```
 
-Limiar los logs anteriores
+Elimiar los logs anteriores
 ```bash
 make logs
 ```
