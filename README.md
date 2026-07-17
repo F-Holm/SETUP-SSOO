@@ -5,10 +5,15 @@ ip a
 ```
 
 Script de Deploy (Completar las IP)
-
 ```bash
 cd ./so-deploy
 ./deploy.sh -r=release -p=utils -p=kernel_scheduler -p=kernel_memory -p=cpu -p=memory_stick -p=swap -p=io -c=KERNEL_SCHEDULER_IP= -c=KERNEL_MEMORY_IP= "tp-2026-1c-Low-Cortisol"
+cd ./tp-2026-1c-Low-Cortisol
+```
+
+Limiar los logs anteriores
+```bash
+make logs
 ```
 
 Prueba Base
